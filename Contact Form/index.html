@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contact Form</title>
+
+    <link rel="shortcut icon" href="../favicon.svg" type="image/svg+xml" />
+    <meta name="title" content="Grilli - Amazing & Delicious Food" />
+    <meta name="description" content="This is a Restaurant Website" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Rubik+Wet+Paint&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="head">
+      <h1>Contact Form</h1>
+      <hr />
+    </div>
+    <!-- <div class="favicons">
+      <img
+        src="../assets/images/shape-5.png"
+        width="500px"
+        height="620px"
+        loading="lazy"
+        alt="shape"
+        class="move-anim"
+      />
+      <img
+        src="../assets/images/shape-6.png"
+        width="343"
+        height="345px"
+        loading="lazy"
+        alt="shape"
+        class="move-anim two"
+      />
+    </div> -->
+    <div class="container glass">
+      <br />
+      <form action="#" id="myForm">
+        <div class="text">
+          <p>First Name :</p>
+        </div>
+
+        <div class="box-input">
+          <div class="border">
+            <input
+              type="text"
+              name="FName"
+              class="input"
+              placeholder="First Name"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="text">
+          <p>Last Name :</p>
+        </div>
+
+        <div class="box-input">
+          <div class="border">
+            <input
+              type="text"
+              name="LName"
+              class="input"
+              placeholder="Last Name"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="text">
+          <p>Phone Number (Optional) :</p>
+        </div>
+        <div class="box-input">
+          <div class="border">
+            <input
+              id="number"
+              type="number"
+              name="Pnumber"
+              class="input"
+              placeholder="Phone Number"
+            />
+          </div>
+        </div>
+
+        <div class="text">
+          <p>Email :</p>
+        </div>
+
+        <div class="box-input">
+          <div class="border">
+            <input
+              type="email"
+              name="email"
+              class="input"
+              placeholder="Email"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="text">
+          <p>Provide Description :</p>
+        </div>
+
+        <div class="tex" id="tex">
+          <textarea
+            class="text_area"
+            placeholder="Enter Here"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" id="googleform">
+          <p>Submit</p>
+        </button>
+
+        <button type="reset" class="button">
+          <p>Reset</p>
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
